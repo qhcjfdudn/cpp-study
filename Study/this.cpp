@@ -10,9 +10,11 @@ class Book {
 
 public:
 	class Builder {
-		int page;
-		bool isColor;
+		int page;		// 생성할 객체와
+		bool isColor;	// 똑같이 멤버를 사용
 	public:
+		Builder(int page) : page(page), isColor(false) {}
+
 		Book build() {
 			return Book{ page, isColor };
 		}
@@ -32,7 +34,6 @@ public:
 };
 
 int main() {
-	
-	Book b = Book::Builder().setPage(10).setColor(false).build();
+	Book b = Book::Builder(20).setPage(10).setColor(false).build();
 	b.print();
 }
