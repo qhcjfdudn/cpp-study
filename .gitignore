@@ -32,6 +32,8 @@
 *.app
 
 # Custom
-x64/
 .vs/
-/Study/Study.*
+/Output
+/Build
+/Src/Study/Study.vcxproj.user
+/Src/Study/Study.aps
