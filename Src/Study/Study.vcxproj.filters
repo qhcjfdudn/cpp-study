@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="const.cpp" />
+    <ClCompile Include="Person2.cpp" />
+    <ClCompile Include="this.cpp" />
+    <ClCompile Include="가상 함수 2.cpp" />
+    <ClCompile Include="가상 함수 3.cpp" />
+    <ClCompile Include="가상 함수 4.cpp" />
+    <ClCompile Include="가상 함수 5.cpp" />
+    <ClCompile Include="가상 함수.cpp" />
+    <ClCompile Include="공간.cpp" />
+    <ClCompile Include="대입 연산자 오버로딩_복사 생성자.cpp" />
+    <ClCompile Include="정적 멤버.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person2.h" />
+    <ClInclude Include="resource.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Study.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
