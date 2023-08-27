@@ -18,6 +18,12 @@
     <ClCompile Include="공간.cpp" />
     <ClCompile Include="대입 연산자 오버로딩_복사 생성자.cpp" />
     <ClCompile Include="정적 멤버.cpp" />
+    <ClCompile Include="변환 연산자 오버로딩.cpp" />
+    <ClCompile Include="변환 규칙.cpp" />
+    <ClCompile Include="정적 결합.cpp" />
+    <ClCompile Include="동적 결합.cpp" />
+    <ClCompile Include="static_cast.cpp" />
+    <ClCompile Include="enum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
