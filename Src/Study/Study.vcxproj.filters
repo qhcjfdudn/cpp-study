@@ -24,6 +24,8 @@
     <ClCompile Include="동적 결합.cpp" />
     <ClCompile Include="static_cast.cpp" />
     <ClCompile Include="enum.cpp" />
+    <ClCompile Include="추상 클래스_순수 가상 함수.cpp" />
+    <ClCompile Include="소멸자.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
