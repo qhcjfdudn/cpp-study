@@ -31,6 +31,9 @@ int main() {
 
 	cout << static_cast<int>(Int64::num) << endl;
 
+//	short s1 = TextAttrs::Bold; 암시적 캐스팅 됨.
+//	short s2 = Colors::Alpha; error. 암시적 캐스팅 되지 않는다.
+	
 	Colors r = Colors::Red;
 	Colors g = (Colors)2;
 	Colors b = static_cast<Colors>(1);
