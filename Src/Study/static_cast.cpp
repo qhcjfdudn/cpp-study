@@ -59,4 +59,11 @@ int main() {
 	Child& c = static_cast<Child&>(p);	// 다운 캐스팅 - 컴파일 됨.
 										// 멤버 접근시 에러가 있을 수 있음.
 										// static_cast 말고 다른 접근이 필요
+
+	char ch2 = 'A';
+	char* cp1 = &ch2;
+
+	int* ip1 = (int*)cp1;	// C Style. 추후 값 접근 시, runtime error 발생 여지 있음.
+//	cout << *ip1 << endl;
+	int* ip2 = static_cast<int*>(cp1);	// error: 잘못된 형식 반환입니다.
 }
