@@ -28,6 +28,9 @@
     <ClCompile Include="소멸자.cpp" />
     <ClCompile Include="const_cast 1.cpp" />
     <ClCompile Include="const_cast 2.cpp" />
+    <ClCompile Include="dynamic_cast 1.cpp" />
+    <ClCompile Include="dynamic_cast 2.cpp" />
+    <ClCompile Include="dynamic_cast 3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
