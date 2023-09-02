@@ -26,6 +26,8 @@
     <ClCompile Include="enum.cpp" />
     <ClCompile Include="추상 클래스_순수 가상 함수.cpp" />
     <ClCompile Include="소멸자.cpp" />
+    <ClCompile Include="const_cast 1.cpp" />
+    <ClCompile Include="const_cast 2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
