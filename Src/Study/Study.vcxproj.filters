@@ -31,6 +31,9 @@
     <ClCompile Include="dynamic_cast 1.cpp" />
     <ClCompile Include="dynamic_cast 2.cpp" />
     <ClCompile Include="dynamic_cast 3.cpp" />
+    <ClCompile Include="reinterpret_cast.cpp" />
+    <ClCompile Include="C 스타일 캐스팅_함수 스타일 캐스팅.cpp" />
+    <ClCompile Include="전통적인 예외처리.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
