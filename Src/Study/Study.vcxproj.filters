@@ -40,6 +40,7 @@
     <ClCompile Include="try_catch 3.cpp" />
     <ClCompile Include="try_catch 4.cpp" />
     <ClCompile Include="RAII.cpp" />
+    <ClCompile Include="noexcept.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
