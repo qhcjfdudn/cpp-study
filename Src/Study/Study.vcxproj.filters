@@ -41,6 +41,8 @@
     <ClCompile Include="try_catch 4.cpp" />
     <ClCompile Include="RAII.cpp" />
     <ClCompile Include="noexcept.cpp" />
+    <ClCompile Include="함수 템플릿 1.cpp" />
+    <ClCompile Include="함수 템플릿 2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
