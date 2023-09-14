@@ -49,6 +49,7 @@
     <ClCompile Include="템플릿 특수화 1.cpp" />
     <ClCompile Include="템플릿 특수화 2.cpp" />
     <ClCompile Include="템플릿 특수화 3.cpp" />
+    <ClCompile Include="Singleton.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
