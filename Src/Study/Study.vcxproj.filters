@@ -50,12 +50,15 @@
     <ClCompile Include="템플릿 특수화 2.cpp" />
     <ClCompile Include="템플릿 특수화 3.cpp" />
     <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="템플릿 구체화.cpp" />
+    <ClCompile Include="template_test_swap.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
     <ClInclude Include="resource.h">
       <Filter>리소스 파일</Filter>
     </ClInclude>
+    <ClInclude Include="template_test_swap.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Study.rc">
