@@ -52,6 +52,9 @@
     <ClCompile Include="Singleton.cpp" />
     <ClCompile Include="템플릿 구체화.cpp" />
     <ClCompile Include="template_test_swap.cpp" />
+    <ClCompile Include="가변인자 1.cpp" />
+    <ClCompile Include="가변인자 2.cpp" />
+    <ClCompile Include="가변인자 3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
