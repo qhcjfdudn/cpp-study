@@ -57,6 +57,8 @@
     <ClCompile Include="템플릿 가변인자 3.cpp" />
     <ClCompile Include="템플릿 메타 프로그래밍 1.cpp" />
     <ClCompile Include="템플릿 메타 프로그래밍 2.cpp" />
+    <ClCompile Include="type_traits 1.cpp" />
+    <ClCompile Include="type_traits 2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
