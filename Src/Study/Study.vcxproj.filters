@@ -67,6 +67,14 @@
     <ClCompile Include="enable_if 2.cpp" />
     <ClCompile Include="RTTI.cpp" />
     <ClCompile Include="dynamic_cast 5.cpp" />
+    <ClCompile Include="vectorimpl.cpp" />
+    <ClCompile Include="auto 1.cpp" />
+    <ClCompile Include="auto 2.cpp" />
+    <ClCompile Include="auto 3.cpp" />
+    <ClCompile Include="auto 4.cpp" />
+    <ClCompile Include="auto 5.cpp" />
+    <ClCompile Include="auto 6.cpp" />
+    <ClCompile Include="auto 7.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
