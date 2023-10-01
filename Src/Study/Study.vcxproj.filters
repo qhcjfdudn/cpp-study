@@ -75,6 +75,8 @@
     <ClCompile Include="auto 5.cpp" />
     <ClCompile Include="auto 6.cpp" />
     <ClCompile Include="auto 7.cpp" />
+    <ClCompile Include="decltype 1.cpp" />
+    <ClCompile Include="decltype 2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
