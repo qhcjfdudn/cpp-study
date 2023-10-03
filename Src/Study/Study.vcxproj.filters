@@ -77,6 +77,10 @@
     <ClCompile Include="auto 7.cpp" />
     <ClCompile Include="decltype 1.cpp" />
     <ClCompile Include="decltype 2.cpp" />
+    <ClCompile Include="lambda 1.cpp" />
+    <ClCompile Include="lambda 2.cpp" />
+    <ClCompile Include="lambda 3.cpp" />
+    <ClCompile Include="lambda 4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
