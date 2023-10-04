@@ -12,7 +12,8 @@ void func() {
 	cout << N << endl;
 }
 int main() {
-	constexpr int value = fibo(50);
+	constexpr int value = fibo(10);
+	// constexpr int value = fibo(50); // error. 과도한 constexpr 함수 호출 복잡성으로 인해 식이 상수로 접히지 않았습니다.
 
 	// 아래 두 구문에서 컴파일 에러가 없다는 건,
 	// 컴파일 타임에 value가 값으로 치환이 된다는 것을

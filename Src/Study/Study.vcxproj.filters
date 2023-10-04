@@ -87,6 +87,7 @@
     <ClCompile Include="lambda 8.cpp" />
     <ClCompile Include="constexpr 1.cpp" />
     <ClCompile Include="constexpr 2.cpp" />
+    <ClCompile Include="constexpr 3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
