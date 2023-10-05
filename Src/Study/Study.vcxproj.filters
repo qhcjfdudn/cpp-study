@@ -89,6 +89,8 @@
     <ClCompile Include="constexpr 2.cpp" />
     <ClCompile Include="constexpr 3.cpp" />
     <ClCompile Include="constexpr 4.cpp" />
+    <ClCompile Include="우측값 참조와 이동 의미론 1.cpp" />
+    <ClCompile Include="우측값 참조와 이동 의미론 2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
