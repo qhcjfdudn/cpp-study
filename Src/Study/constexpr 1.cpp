@@ -15,6 +15,9 @@ int main() {
 	constexpr int value = fibo(10);
 	// constexpr int value = fibo(50); // error. 과도한 constexpr 함수 호출 복잡성으로 인해 식이 상수로 접히지 않았습니다.
 
+	// cout << fibo(9) << endl; // 이 경우는 fibo(9) 함수가 상수 시간에 치환되지 않았다.
+	// constexpr 변수로 받아야만 컴파일 타임에 계산되는 것 같다.
+
 	// 아래 두 구문에서 컴파일 에러가 없다는 건,
 	// 컴파일 타임에 value가 값으로 치환이 된다는 것을
 	// 보장 받는다는 의미이다.
