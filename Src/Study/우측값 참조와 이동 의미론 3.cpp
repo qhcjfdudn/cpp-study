@@ -1,6 +1,13 @@
 #include "MyString.h"
+#include <iostream>
+#include <vector>
+
+using std::cout;
+using std::endl;
 
 int main() {
-	MyString my("123");
-	MyString str1 = MyString{ "abc" };
+	std::vector<MyString> s{ MyString("abc") };
+
+	cout << "reserve" << endl;
+	s.reserve(10);
 }

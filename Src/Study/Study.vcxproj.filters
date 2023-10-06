@@ -93,6 +93,7 @@
     <ClCompile Include="우측값 참조와 이동 의미론 2.cpp" />
     <ClCompile Include="MyString.cpp" />
     <ClCompile Include="우측값 참조와 이동 의미론 3.cpp" />
+    <ClCompile Include="우측값 참조와 이동 의미론 4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
