@@ -91,6 +91,8 @@
     <ClCompile Include="constexpr 4.cpp" />
     <ClCompile Include="우측값 참조와 이동 의미론 1.cpp" />
     <ClCompile Include="우측값 참조와 이동 의미론 2.cpp" />
+    <ClCompile Include="MyString.cpp" />
+    <ClCompile Include="우측값 참조와 이동 의미론 3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
@@ -98,6 +100,7 @@
       <Filter>리소스 파일</Filter>
     </ClInclude>
     <ClInclude Include="template_test_swap.h" />
+    <ClInclude Include="MyString.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Study.rc">
