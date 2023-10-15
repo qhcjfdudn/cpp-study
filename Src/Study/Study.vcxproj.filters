@@ -96,6 +96,10 @@
     <ClCompile Include="우측값 참조와 이동 의미론 4.cpp" />
     <ClCompile Include="우측값 참조와 이동 의미론 5.cpp" />
     <ClCompile Include="우측값 참조와 이동 의미론 6.cpp" />
+    <ClCompile Include="전달(보편) 참조_완벽 전달 1.cpp" />
+    <ClCompile Include="전달(보편) 참조_완벽 전달 2.cpp" />
+    <ClCompile Include="전달(보편) 참조_완벽 전달 3.cpp" />
+    <ClCompile Include="전달(보편) 참조_완벽 전달 4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
