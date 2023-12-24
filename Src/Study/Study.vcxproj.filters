@@ -102,6 +102,7 @@
     <ClCompile Include="전달(보편) 참조_완벽 전달 4.cpp" />
     <ClCompile Include="function 1.cpp" />
     <ClCompile Include="atomic.cpp" />
+    <ClCompile Include="thread 1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
