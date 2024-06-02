@@ -6,8 +6,8 @@
 std::recursive_mutex m;
 
 void goo() {
-		std::lock_guard lg(m);
-		std::cout << "goo()" << std::endl;
+	std::lock_guard lg(m);
+	std::cout << "goo()" << std::endl;
 }
 
 void foo() {
