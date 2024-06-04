@@ -17,6 +17,7 @@ void produce(std::mutex& m, std::condition_variable& cv, std::queue<int>& jobQue
 			std::cout << "push. size: " << jobQueue.size() << std::endl;
 
 			cv.notify_one();
+			
 			std::this_thread::sleep_for(1s);
 		}
 
