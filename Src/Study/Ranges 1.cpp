@@ -4,6 +4,8 @@
 #include <algorithm>
 
 int main() {
+	// Algorithm
+
 	std::vector<int> v{ 1, 4, 2, 3 };
 	std::ranges::sort(v.begin(), v.end());
 	auto it = std::ranges::find(v, 3);
