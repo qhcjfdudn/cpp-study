@@ -3,19 +3,19 @@
 template<typename T>
 class Ptr {
 	T* obj;
-	int* cnt;
+	int* ref;
 public:
-	Ptr(T* p = nullptr) : obj(p), cnt(new int) {
-		*cnt = 1;
+	Ptr(T* p = nullptr) : obj(p), ref(new int) {
+		*ref = 1;
 	}
-	Ptr(const Ptr& other) : obj(other.obj), cnt(other.cnt) {
-		++(*cnt);
+	Ptr(const Ptr& other) : obj(other.obj), ref(other.ref) {
+		++(*ref);
 	}
 	~Ptr() {
-		if (--(*cnt) == 0)
+		if (--(*ref) == 0)
 		{
 			delete obj;
-			delete cnt;
+			delete ref;
 		}
 	}
 
