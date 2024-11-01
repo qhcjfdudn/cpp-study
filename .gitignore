@@ -35,7 +35,8 @@
 .vs/
 /Output
 /Build
-/Src/Study/Study.vcxproj.user
+/Src/Study/Study.vcxproj
+/Src/Study/Study.vcxproj.*
 /Src/Study/Study.aps
 /Src/Study/x64
 /Src/x64
