@@ -141,6 +141,9 @@
     <ClCompile Include="Coroutines 2.cpp" />
     <ClCompile Include="Coroutines 3.cpp" />
     <ClCompile Include="Coroutines 4.cpp" />
+    <ClCompile Include="typeid.cpp" />
+    <ClCompile Include="CRTP 1.cpp" />
+    <ClCompile Include="CRTP 2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person2.h" />
